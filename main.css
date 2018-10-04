@@ -1,0 +1,22 @@
+
+body {
+  background-color: #b4adab;
+}
+video {
+  max-width: 100%;
+}
+nav {
+  background-color: #4ddf39;
+  font-size: 20pt;
+  color: white;
+  display: block;
+}
+.nav a div{
+  border: solid navy 1px;
+  border: 2.5%;
+  display: inline;
+}
+nav h1, h3{
+  /* display: inline; */
+  margin: 0 0 0 2.5%;
+}
