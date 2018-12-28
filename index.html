@@ -11,63 +11,82 @@
 </head>
 
 <body>
-  <div class='container-fluid'>
-  <nav class='row'>
-    <div class='col-sm-5'>
+  <div class="container-fluid">
+    <nav class="row">
+      <div class="col-sm text-left">
+        <!-- <a href="">Home</a> -->
+        <a href="">About</a>
+        <a href="">Projects</a>
+        <a href="">Skills</a>
+        <a href="">Contact</a>
+      </div>
+      <div class="col-sm text-right">
+        <!-- icons courtesy of flaticon.com -->
+      <a href="index.html"><img src="images/home-icon.png" alt="Home"></a>
+      <a href="documents/resume.pdf"><img src="images/resume-icon.png" alt="Resume"></a>
+      <a href="https://github.com/Timberlee"><img src="images/github-icon.png" alt="Github"></a>
+      <a href="https://linkedin.com/in/brian-sternemann"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
+      </div>
+    </nav>
+  <div class="row">
+    <div class="col-sm mt-3 text-center">
         <h1>Brian Sternemann</h1>
         <h3>Full Stack Web Developer</h3>
     </div>
-    <div class='col-sm-7'>
-    <a href='index.html'><img src='images/home-icon.png'> Home</a>
-    <a href='documents/resume.pdf'><img src='images/resume-icon.png'> Resume</a>
-    <a href='https://github.com/Timberlee'><img src='images/github-icon.png'> Github</a>
-    <a href='https://linkedin.com/in/brian-sternemann'><img src='images/linkedin-icon.png'>LinkedIn</a>
-    </div>
-  </nav>
+  </div>
 
-  <div class='row'>
-    <div class='col-sm-7 mx-auto shadow p-3 mb-5 bg-white'>
+  </nav>
+<!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+  <div class="row">
+    <div class="col-sm-7 mx-auto shadow p-3 mb-5 bg-white">
       <video controls>
         <source src="screen-rec-woofers.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
       </video>
       <p>A blog for dog lovers and their furry friends where they can write and view posts.</p>
       <p>Stack: HTML5, CSS3, AJAX, Ruby on Rails</p>
-      <a href='http://woofers.herokuapp.com/'>Ruby on Rails Blog | </a>
-      <a href='https://github.com/Timberlee/woofers'>Blog on Github</a>
+      <div class="d-flex justify-content-center">
+        <a href="http://woofers.herokuapp.com/" class='mr-1'><img src='images/website-icon.png' alt="Ruby on Rails Blog | "> </a>
+        <a href="https://github.com/Timberlee/woofers" class='ml-1'><img src="images/github-icon.png" alt="Github"></a>
+      </div>
     </div>
   </div>
-  <div class='row'>
-    <div class='col-sm-7 mx-auto shadow p-3 mb-5 bg-white'>
+  <div class="row">
+    <div class="col-sm-7 mx-auto shadow p-3 mb-5 bg-white">
       <video controls>
         <source src="screen-rec-evildoctorschool.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
       </video>
       <p>A school admin panel allowing the admin to create, edit, and delete courses, cohorts, students, and instructors.</p>
       <p>Stack: HTML5, CSS3, Ruby on Rails, Sentry</p>
-      <a href='http://evildoctorschool.herokuapp.com'>School Admin Panel | </a>
-      <a href='https://github.com/Timberlee/evildoctorschool' >On Github</a>
+      <div class="d-flex justify-content-center">
+        <a href="http://evildoctorschool.herokuapp.com" class="mr-1"><img src="images/website-icon.png" alt="School Admin Panel |"></a>
+        <a href="https://github.com/Timberlee/evildoctorschool" class="ml-1"><img src="images/github-icon.png" alt="Github"></a>
+      </div>
     </div>
   </div><!--row-->
-  <div class='row'>
-    <div class='col-sm-7 mx-auto shadow p-3 mb-5 bg-white'>
+  <div class="row">
+    <div class="col-sm-7 mx-auto shadow p-3 mb-5 bg-white">
       <video controls>
         <source src="screen-rec-bakery.mp4" type="video/mp4">
       </video>
       <p>A website to showcase bakery products and provide contact info and local baking events</p>
       <p>Stack: HTML5, CSS3, AJAX, Sinatra</p>
-      <a href='https://github.com/Timberlee/bakery'>Bakery Website on Github</a>
+      <div class="d-flex justify-content-center">
+        <a href="https://github.com/Timberlee/bakery"><img src="images/github-icon.png" alt="Github"></a>
+      </div>
     </div>
   </div><!--row-->
-    <div class='row'>
-      <div class='col'>
+    <div class="row">
+      <div class="col">
         <h3>Bio</h3>
         <p>I am a full stack web developer, who has always excelled at solving problems and building things with my hands. I am transitioning into technology to have more creative control over the innovative process. What is programming but a virtual, ultra-portable version of building solutions?
         <br> When not behind the screen, I am behind the curtain as an operatic tenor.</p>
       </div>
     </div>
-
-
+    <footer>
+      <a href="">Top</a>
+    </footer>
   </div><!--container-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

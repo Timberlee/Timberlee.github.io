@@ -1,23 +1,30 @@
 
 body {
 }
+h1 {
+  font-family: Roboto, DejaVu sans-serif;
+}
 video {
   max-width: 100%;
 }
 nav {
-  background-color: #4ddf39;
   font-size: 5vh;
-  color: white;
   display: block;
 }
 h1 {
+  font-family: sans-serif;
   font-size: 8vh;
   line-height: normal;
+  
 }
 h3 {
+  font-family: sans-serif;
   font-size: 6vh;
   line-height: normal;
 }
 p {
   line-height: normal;
+}
+a img {
+  max-height: 7.5vh;
 }
