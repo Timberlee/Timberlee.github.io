@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,58 +6,75 @@
   <title>Brian Sternemann, Full Stack Web Developer</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <!-- <div>Faviconcon made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <base target="_blank">
+  <link rel="icon" href="images/red-x-fontmeme-bridge.png" type="image/png" sizes="16x16">
 </head>
-
+<nav class="row">
+  <!-- <div id="compass" class="col-sm-2 ml-3 overflow-visible justify-content-start">
+    <a href='#emailMe'><img src="images/aaron-burden-523450-unsplash-cropped.jpg"></a>
+  </div> -->
+  <div class="col-sm d-flex justify-content-end" id="top">
+    <!-- icons courtesy of flaticon.com -->
+    <a href="documents/resume.pdf"><img src="images/resume-icon.png" alt="Resume" class='mx-1'></a>
+    <a href="https://github.com/Timberlee"><img src="images/github-icon.png" alt="Github" class='mx-1'></a>
+    <a href="https://linkedin.com/in/brian-sternemann"><img src="images/linkedin-icon.png" alt="LinkedIn" class='mx-1'></a>
+  </div>
+</nav>
 <body>
-  <div class="container-fluid">
-    <nav class="row">
-      <div class="col-sm text-left">
-        <!-- <a href="">Home</a> -->
-        <a href="">About</a>
-        <a href="">Projects</a>
-        <a href="">Skills</a>
-        <a href="">Contact</a>
-      </div>
-      <div class="col-sm text-right">
-        <!-- icons courtesy of flaticon.com -->
-      <a href="index.html"><img src="images/home-icon.png" alt="Home"></a>
-      <a href="documents/resume.pdf"><img src="images/resume-icon.png" alt="Resume"></a>
-      <a href="https://github.com/Timberlee"><img src="images/github-icon.png" alt="Github"></a>
-      <a href="https://linkedin.com/in/brian-sternemann"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
-      </div>
-    </nav>
+<div class="container">
   <div class="row">
-    <div class="col-sm mt-3 text-center">
-        <h1>Brian Sternemann</h1>
-        <h3>Full Stack Web Developer</h3>
+    <div class="col-xs pt-3 mx-auto mt-3 mb-3 text-center headingSection">
+      <h1 class="mx-3">Brian Sternemann</h1>
+      <h3 class="mx-3">Full Stack Web Developer</h3>
+    </div>
+  </div>
+  <div class='row aboutSection mb-3'>
+    <div class='col-sm text-center'>
+      <div class='p-3 pt-5 ml-5 mt-2 mb-3'>
+        <img src='images/brian-bust.jpg' class='border border-primary rounded-circle cropped-bust'>
+      </div>
+      <div class="skills text-center">
+        <h3>Skills</h3>
+        <p><strong>Front End:</strong> HTML5 · CSS3 · SASS · JavaScript · Bootstrap · Animate </p>
+        <p><strong>Back End:</strong> Ruby · Sinatra · Ruby on Rails · Heroku · SQL · Postgres · Sqlite · Active Record · BCrypt </p>
+        <p><strong>Developer:</strong> Git · Github · Linux Bash · API (AJAX, Nokogiri) · Curl · Agile Methodology</p>
+      </div>
+    </div>
+    <div class='col-sm p-5 ml-4 indented'>
+      <h3>About Me</h3>
+      <p>Born and raised on Long Island, I have always enjoyed creatively solving problems, which is my favorite part of any project. Being a full stack developer allows me to fully engage in this process. I never accept "well that's just the way it's always been done" as an answer. Whether documenting a project or completely refactoring how it's done, I believe that there is always a better, faster, or easier way to do anything.</p>
+	    <p>I enjoy both the technical and personal aspects of projects, the front and back end, the details and the bigger picture, the peanut butter and the jelly.</p>
+		  <p>I appreciate the parallel between people and computers, in that knowing what one wants to communicate or accomplish is as important as conveying it in a way that the person or computer understands. Furthermore, when communication is clear and open, collaboration can flourish.</p>
+		  <p>I like to collaborate throughout all my creative endeavors, whether confronting a mortal enemy / soulmate / a little of both (opera plots are complicated) front and center, or helping out a fellow chorister with notes and rhythms in rehearsal. The best best results stem from everyone can contributing their unique talents.</p>
+	    <p>When not coding, I am singing opera, playing hockey, trading favorite comedy quotes with my friends, or petting the nearest dog. In addition to English I am comfortable in Spanish, Italian, and German.</p>
     </div>
   </div>
 
-  </nav>
 <!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+<h3 class='col-sm-2 mx-auto headingSection'>Projects</h3>
   <div class="row">
-    <div class="col-sm-7 mx-auto shadow p-3 mb-5 bg-white">
+    <div class="col-8 mx-auto p-5 mb-5 projectSection">
       <video controls>
         <source src="screen-rec-woofers.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
       </video>
       <p>A blog for dog lovers and their furry friends where they can write and view posts.</p>
-      <p>Stack: HTML5, CSS3, AJAX, Ruby on Rails</p>
+      <p>Stack: HTML5, CSS3, AJAX, Sinatra</p>
       <div class="d-flex justify-content-center">
-        <a href="http://woofers.herokuapp.com/" class='mr-1'><img src='images/website-icon.png' alt="Ruby on Rails Blog | "> </a>
+        <a href="http://woofers.herokuapp.com/" class='mr-1'><img src='images/website-icon.png' alt="Ruby (Sinatra) Blog | "> </a>
         <a href="https://github.com/Timberlee/woofers" class='ml-1'><img src="images/github-icon.png" alt="Github"></a>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-7 mx-auto shadow p-3 mb-5 bg-white">
+    <div class="col-8 mx-auto p-5 mb-5 projectSection">
       <video controls>
         <source src="screen-rec-evildoctorschool.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
       </video>
-      <p>A school admin panel allowing the admin to create, edit, and delete courses, cohorts, students, and instructors.</p>
+      <p class='mt-3'>A school admin panel allowing the admin to create, edit, and delete courses, cohorts, students, and instructors.</p>
       <p>Stack: HTML5, CSS3, Ruby on Rails, Sentry</p>
       <div class="d-flex justify-content-center">
         <a href="http://evildoctorschool.herokuapp.com" class="mr-1"><img src="images/website-icon.png" alt="School Admin Panel |"></a>
@@ -66,7 +83,7 @@
     </div>
   </div><!--row-->
   <div class="row">
-    <div class="col-sm-7 mx-auto shadow p-3 mb-5 bg-white">
+    <div class="col-8 mx-auto p-5 mb-5 projectSection">
       <video controls>
         <source src="screen-rec-bakery.mp4" type="video/mp4">
       </video>
@@ -78,14 +95,17 @@
     </div>
   </div><!--row-->
     <div class="row">
-      <div class="col">
-        <h3>Bio</h3>
-        <p>I am a full stack web developer, who has always excelled at solving problems and building things with my hands. I am transitioning into technology to have more creative control over the innovative process. What is programming but a virtual, ultra-portable version of building solutions?
-        <br> When not behind the screen, I am behind the curtain as an operatic tenor.</p>
-      </div>
+
     </div>
-    <footer>
-      <a href="">Top</a>
+    <footer class='text-center'>
+
+      <p id='emailMe'><img src="images/red-x-fontmeme-bridge.png"><a class='mailToSection' href="mailto:bsternemann@protonmail.ch?Subject=Hi%20Brian">AHOY!</a><p><!--mx-auto didn't work-->
+      <div class='d-flex justify-content-center'>
+        <a href="#top"><img src="images/home-icon.png" alt="Home" class='mb-1 mx-1'></a>
+        <a href="documents/resume.pdf"><img src="images/resume-icon.png" alt="Resume" class='mx-1' > </a>
+        <a href="https://github.com/Timberlee"><img src="images/github-icon.png" alt="Github" class='mx-1'></a>
+        <a href="https://linkedin.com/in/brian-sternemann"><img src="images/linkedin-icon.png" alt="LinkedIn" class='mx-1'></a> <!-- for some reason the animated underline cuts through 2/3 of the way towards the bottom unless links are in this div class -->
+      </div>
     </footer>
   </div><!--container-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
